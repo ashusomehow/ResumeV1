@@ -1,66 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8" />
-    <title>My Resume</title>
-        <style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
-  </head>
-    <body>
-        <h1>Ashutosh Kumar Rai</h1>
-        <hr>
-        <h4>Contact No 7985739405</h4>
-        <h4>Course B.sc. Data Science & Artificial Intelligence</h4>
-        <h4>Year-2023-27</h4>
-        <p>
-        <a href="https://github.com/ashusomehow" target="_blank">GITHUB</a>
-            <a href="https://www.linkedin.com/in/ashusomehow/" target="_blank">LinkedIn</a>
-        </p>
-        <h2><u>SKILLS:</u></h2>
-       <table style="width:100%">
-    <thead>
-        <tr>
-            <th>Skill</th>
-            <th>Level</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>HTML</td>
-            <td>Beginner</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>Beginner</td>
-        </tr>
-        <tr>
-            <td>C Programming</td>
-            <td>Intermediate</td>
-        </tr>
-        <tr>
-            <td>MS Excel</td>
-            <td>Intermediate</td>
-        </tr>
-    </tbody>
-</table>
-        <hr>
-        <h3>HOBBIES</h3>
-        <h4>Exploring designs. Programming problem solving </h4>
-        <h2>EDUCATION</h2>
-        <h4>INTERMEDIATE SCHOOL</h4>
-        <p>Central Board of Secondary Education, New Delhi 2023 </p>
-        <h4>BACHELOR OF SCIENCE (HONS.)</h4>
-        <p>Indian Institute of Technology Guwahati 2027 (Current) </p>
-        <h3>WORKSHOPS/CONFERENCES PARTICIPATION</h3>
-        <h4>
-        Seminar by Saurabh Aggarwal CEO at DAIOM.
-        <br>
-        Seminar by Priyanka Yadav SDE II at LinkedIn.
-        <br>
-        Seminar by Imran Rashid CBO at PW.
-        </h4>
-        </body>
-        </html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Ashutosh Rai</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="wrapper">
+
+<div class="container">
+
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="Images\Nav-logo.png" class="logo" alt="(A)">
+            <div class="logo-text">shutosh Rai</div>
+        </div>
+        <div class="nav-item">
+            <div><a href="#projects">Projects</a></div>
+            <div><a href="#skills">Skills</a></div>
+            <div><a href="#contactme">Contact Me</a></div>
+        </div>
+    </div>
+</div>
+
+<div id="wrapper">
+    <div class="container">
+        <div class="hero-section">
+            <div class="faded-text">Ashutosh Rai</div>
+            <div class="hero-section-left">
+                <div class="hero-section-heading">Hi!! Ashutosh Rai </div>
+                <div class="hero-section-headin hero-section-sub-heading">I am a <span class="role"></span> </div>
+                <div class="hero-section-desciption">I'm a software developer and here is my portfolio website. Here you'll learn about my journey as a software developer.</div>
+                <div class="btn-pink" id="btn">Hire Me!</div>
+            </div>
+            <div class="hero-section-right">
+                <div class="absolute icon icon-dots">
+                    <img src="Images\Nav-dots.png" alt="">
+                </div>
+                <div class="absolute icon icon-cube">
+                    <img src="Images\Nav-cube.png" alt="">
+                </div>
+                <div class="absolute icon icon-cirlce">
+                    <img src="Images\Nav-circle.png" alt="">
+                </div>
+                <div class="absolute icon icon-zigzags">
+                    <img src="Images\Nav-zigzags.png" alt="">
+                </div>
+                <div class="user-img">
+                    <img src="Images\Me.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+<script>
+    var typeData = new Typed(".role", {
+        strings: [
+            "Full Stack Developer",
+            "Web Developer",
+            "UI-UX Designer",
+            "Frontend Developer",
+            "Coder",
+    ],
+    loop:true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 1000,
+});
+</script>
+
+</body>
+</html>
